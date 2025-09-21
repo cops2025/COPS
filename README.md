@@ -12,11 +12,11 @@ This repository contains the implementation of the `Contextual Optimistic-Pessim
   <img src="assets/teaser.png" alt="example" width="800"/>
 </div> -->
 
-## Directory Structure
+<!-- ## Directory Structure
 
 ```bash
 
-```
+``` -->
 
 
 ## Code Usage
@@ -55,8 +55,7 @@ Create the corresponding datasets for each case by running the `create_datasets_
 
 #### Run COPS
 
-1. Create dataset using:
-   * `create_datasets_contextual.ipynb`
+1. Navigate to `COPS/` folder, run `create_datasets_contextual.ipynb` to create the input data files:
 
 2. Train true offline models for P, R, C using all data
    * Run `model_contextual.ipynb`:
